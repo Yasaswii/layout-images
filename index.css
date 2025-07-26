@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.nav-container {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(171, 171, 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text {
+    text-align: center;
+}
+
+.text1, .text2{
+    color: rgb(2, 2, 2);
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.text2 {
+    margin-top: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+.navbar {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.nav-item a {
+    text-decoration: none;
+    padding: 0.8rem;
+    color: rgb(185, 13, 13);
+    border: 0.1rem solid rgb(26, 25, 25);
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.nav-item a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.image-container {
+    width: 100%;
+   
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     gap: 1rem;
+}
+
+
+.parent div {
+    width: 100%;
+    height: 100%;
+}
+
+.parent img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 3 / 3; }
+.div3 { grid-area: 2 / 1 / 7 / 2; }
+.div4 { grid-area: 3 / 2 / 4 / 3; }
+.div5 { grid-area: 4 / 2 / 6 / 3; }
+.div6 { grid-area: 6 / 2 / 8 / 3; }
+.div7 { grid-area: 7 / 1 / 8 / 2; }
+.div8 { grid-area: 8 / 1 / 10 / 2; }
+.div9 { grid-area: 8 / 2 / 11 / 3; }
+.div10 { grid-area: 10 / 1 / 12 / 2; }
+.div11 { grid-area: 11 / 2 / 13 / 3; }
+.div12 { grid-area: 12 / 1 / 13 / 2; }
+.div13 { grid-area: 13 / 2 / 14 / 3; }  
+.div14 { grid-area: 14 / 2 / 14 / 3; } 
+.div15{grid-area: 13/1/13/2;} 
+
+
+
+
+
+.footer-container{
+    background-color: rgba(185, 234, 93, 0.726);
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    display: flex;
+      align-items: center;
+    justify-content: center;
+    
+}
+.social-icons{
+    position: absolute;
+    display: flex;
+    gap: 1rem ;
+    font-size: 2rem;
+}
+
+.class{
+    position: absolute;
+    bottom: 1.5rem;
+}
